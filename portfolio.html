@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+    <title>Sobre-mi</title>
+   <!--Estilos--> 
+   <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+   <link rel="stylesheet" href="assets/css/reset.css">
+   <link rel="stylesheet" href="assets/css/style.css"/>
+   <link rel="stylesheet" href="assets/css/scroll.css">
+   <link rel="stylesheet" href="assets/fonts/poppins/poppinns.css">
+   <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--Script JS-->
+
+    <script src="assets/js/menu.js" defer></script>
+</head>
+<body>
+    <!--Layout principal-->
+    <div class="layout">
+    <!--Barra lateral(info usaurio)-->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+        <!--informacion general usuario-->
+                   <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="/assets/img/default-user.jpg" alt="imagen del usuario" class="user-info__image">
+                    </div>
+                    <h2 class="user-info__name">Antonio Heredia Morante <br> Heran76</h2>
+                    <h4 class="user-info__job">Desarrollador web</h4>
+                   </div>
+                   <!--Menú de navegación-->
+                   <nav class="layout__menu">
+                    <ul class = "menu__list">
+                        <li class="menu__option">
+                             <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house menu__icon"></i>
+                                <span class="menu__overlay">Inicio</span>
+                             </a>
+                        </li> 
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                               <i class="menu__icon fa-solid fa-user"></i>
+                               <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                       </li>
+                       <li class="menu__option">
+                        <a href="curriculum.html" class="menu__link">
+                           <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                           <span class="menu__overlay">Curriculum</span>
+                        </a>
+                       </li>
+                       <li class="menu__option">
+                      <a href="portfolio.html" class="menu__link menu__link--active">
+                       <i class="menu__icon fa-solid fa-briefcase"></i>
+                       <span class="menu__overlay">Portfolio</span>
+                      </a>
+                      </li>
+                      <li class="menu__option">
+                       <a href="blog.html" class="menu__link">
+                       <i class="menu__icon fa-solid fa-book"></i>
+                       <span class="menu__overlay">blog</span>
+                       </a>
+                      </li>
+                      <li class="menu__option">
+                        <a href="contactar.html" class="menu__link">
+                           <i class="menu__icon fa-solid fa-envelope"></i>
+                           <span class="menu__overlay">Contactar</span>
+                        </a>
+                   </li>
+
+                       </ul>
+
+                   </nav>
+                   <!--links a redes sociales-->
+
+                   <div class="user-info__links">
+                     
+                <ul class="links__social">
+
+                    <li class="social__option">
+                        <a href="https://github.com/Heran76" class="social__link">
+                            <i class="social__icon fa-brands fa-github"></i> 
+                        </a>
+                    </li>
+
+                    <li class="social__option">
+                        <a href="https://www.linkedin.com/in/antonioherediamorante/" class="social__link">
+                        <i class="social__icon fa-brands fa-linkedin"></i></a>
+                    </li>   
+
+                </ul>
+
+                   </div>
+                   <!--Botón del curriculum-->
+                  <div class="user-info__buttons">
+                    <a href="assets/img/CV_Currículum_Vitae_Antonio_heredia.pdf (1).pdf" class="user-info__btn">Descargar CV</a>
+
+                  </div>
+                   <!--Pie de página-->
+                   <footer class="user-info__footer">
+                         &copy;2024 Antonio Heredia Monrate
+                   </footer>
+
+            </section>
+
+        </aside>
+<!--Menu responsive-->
+<div class="layout__menu-toggle">
+    <i class="menu-toggle__icon fa-solid fa-bars"></i>
+    <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+    </div>
+
+        <!--Contenido principal-->
+<main class="layout__content">
+    <section class="content__page content__portfolio">
+        <!--Este contenido cambia en cada pagina del sitio web-->
+        <header class="portfolio__header">
+            <h1 class="portfolio__titles">Portfolio</h1>
+        </header>
+          
+        <nav class="portfolio__navbar">
+             <ul class="portfolio__menu">
+                
+                <li class="portfolio__option portfolio__option--active">
+                     <a href="#" class="portfolio__link">Todo</a>
+                </li>
+
+                <li class="portfolio__option">
+                    <a href="#" class="portfolio__link">web</a>
+                </li>
+
+                <li class="portfolio__option">
+                    <a href="#" class="portfolio__link">Redes sociales</a>
+                </li>
+
+                <li class="portfolio__option">
+                    <a href="#" class="portfolio__link">Videos</a>
+                </li>
+
+                <li class="portfolio__option">
+                    <a href="#" class="portfolio__link">Proyectos</a>
+                </li>
+
+             </ul>
+        </nav>
+        <section class="portfolio__gallery">
+            
+            <figure class="galery__item">
+                <div class="gallery__container-image">
+                     <a href="#" class="portfolio_link">
+                        <img src="assets/img/galeria-1.jpg" class="gallery__image"alt="cámara">
+                     </a>
+                </div>
+                <figcaption class="gallery__title">Producion</figcaption>
+                <i class="gallery__ico fa-solid fa-video-camera"></i>
+                <span class="galery__category">videos</span>
+            </figure>
+
+            <figure class="galery__item">
+                <div class="gallery__container-image">
+                     <a href="#" class="portfolio_link">
+                        <img src="assets/img/galeria-2.jpg" class="gallery__image"alt="cámara">
+                     </a>
+                </div>
+                <figcaption class="gallery__title">Marster en javascript</figcaption>
+                <i class="gallery__ico fa-solid fa-code"></i>
+                <span class="galery__category">cursos</span>
+            </figure>
+
+            <figure class="galery__item">
+                <div class="gallery__container-image">
+                     <a href="#" class="portfolio_link">
+                        <img src="assets/img/galeria-3.jpg" class="gallery__image"alt="cámara">
+                     </a>
+                </div>
+                <figcaption class="gallery__title">Master en React</figcaption>
+                <i class="gallery__ico fa-solid fa-code-commit"></i>
+                <span class="galery__category">Curso</span>
+            </figure>
+
+            <figure class="galery__item">
+                <div class="gallery__container-image">
+                     <a href="#" class="portfolio_link">
+                        <img src="assets/img/galeria-4.jpg" class="gallery__image"alt="cámara">
+                     </a>
+                </div>
+                <figcaption class="gallery__title">Red social</figcaption>
+                <i class="gallery__ico fa-solid fa-code"></i>
+                <span class="galery__category">web</span>
+            </figure>
+
+            <figure class="galery__item">
+                <div class="gallery__container-image">
+                     <a href="#" class="portfolio_link">
+                        <img src="assets/img/galeria-5.jpg" class="gallery__image"alt="cámara">
+                     </a>
+                </div>
+                <figcaption class="gallery__title">Master logica</figcaption>
+                <i class="gallery__ico fa-solid fa-code"></i>
+                <span class="galery__category">curso</span>
+            </figure>
+
+            <figure class="galery__item">
+                <div class="gallery__container-image">
+                     <a href="#" class="portfolio_link">
+                        <img src="assets/img/galeria-6.jpg" class="gallery__image"alt="cámara">
+                     </a>
+                </div>
+                <figcaption class="gallery__title">Galeria de imágenes</figcaption>
+                <i class="gallery__ico fa-solid fa-image-portrait"></i>
+                <span class="galery__category">Proyectos</span>
+            </figure>
+
+        </section>
+    </section>
+
+</main>
+    </div>
+</body>
+</html>

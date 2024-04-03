@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+    <title>blog</title>
+    <!--Estilos-->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/scroll.css"/>
+    <link rel="stylesheet" href="assets/fonts/poppins/poppinns.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css">
+     <!--Script JS-->
+     <script src="assets/js/menu.js" defer></script>
+  </head>
+  <body>
+    <!--Layout principal-->
+    <div class="layout">
+      <!--Barra lateral(info usaurio)-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!--informacion general usuario-->
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                src="assets/img/default-user.jpg"
+                alt="imagen del usuario"
+                class="user-info__image"
+              />
+            </div>
+            <h2 class="user-info__name">
+              Antonio Heredia Morante <br />
+              Heran76
+            </h2>
+            <h4 class="user-info__job">Desarrollador web</h4>
+          </div>
+          <!--Menú de navegación-->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house menu__icon"></i>
+                  <span class="menu__overlay">Inicio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Curriculum</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portfolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portfolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="blog.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">blog</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="contactar.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contactar</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!--links a redes sociales-->
+
+          <div class="user-info__links">
+            
+            <ul class="links__social">
+
+              <li class="social__option">
+                  <a href="https://github.com/Heran76" class="social__link">
+                      <i class="social__icon fa-brands fa-github"></i> 
+                  </a>
+              </li>
+
+              <li class="social__option">
+                  <a href="https://www.linkedin.com/in/antonioherediamorante/" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i></a>
+              </li>   
+
+          </ul>
+          </div>
+          <!--Botón del curriculum-->
+          <div class="user-info__buttons">
+            <a href="assets/img/CV_Currículum_Vitae_Antonio_heredia.pdf (1).pdf" class="user-info__btn">Descargar CV</a>
+          </div>
+          <!--Pie de página-->
+          <footer class="user-info__footer">
+            &copy;2024 Antonio Heredia Monrate
+          </footer>
+        </section>
+      </aside>
+     
+     <!--Menu responsive-->
+     <div class="layout__menu-toggle">
+      <i class="menu-toggle__icon fa-solid fa-bars"></i>
+      <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+      </div>
+     
+      <!--Contenido principal-->
+      <main class="layout__content">
+        <section class="content__page content__blog">
+          <!--Este contenido cambia en cada pagina del sitio web-->
+          <header class="blog__header">
+            <h1 class="blog__titles">Blog</h1>
+          </header>
+
+          <section class="blog__articles">
+            <article class="articles__article">
+              <div class="articles__top">
+                <div class="article__category">Desarrollo</div>
+                <a href="https://www.linkedin.com/pulse/simplificando-tu-c%2525C3%2525B3digo-el-uso-correcto-de-var-let-y-2bhef/?trackingId=zIA%2FQxmoRPakK83xpMYBAg%3D%3D" class="article__link">
+                  <div class="article__mask">
+                    <img
+                      src="assets/img/articulo-1.jpg"
+                      class="article__image"
+                      alt="Imagen del blog"
+                    />
+                  </div>
+                  <div class="article__logo">
+                    <i class="article__icon fa-solid fa-book"></i>
+                  </div>
+                </a>
+              </div>
+
+              <div class="article__bottom">
+                <time datetime="2024-08-30" class="article__date"
+                  >19-03-2024</time
+                >
+                <a href="https://www.linkedin.com/pulse/simplificando-tu-c%2525C3%2525B3digo-el-uso-correcto-de-var-let-y-2bhef/?trackingId=zIA%2FQxmoRPakK83xpMYBAg%3D%3D" class="article__link">
+                  <h2 class="article__title">
+                    Simplificando tu Código: El Uso Correcto de var, let y const para Variables en JavaScript
+                  </h2>
+                </a>
+              </div>
+            </article>
+
+            <article class="articles__article">
+              <div class="articles__top">
+                <div class="article__category">Desarrollo</div>
+                <a href="https://www.linkedin.com/pulse/optimizando-la-experiencia-del-usuario-validar-en-web-e0ghe/?trackingId=kBPmypHvSFO%2FTwCF5hPbFg%3D%3D" class="article__link">
+                  <div class="article__mask">
+                    <img
+                      src="assets/img/articulo-2.jpg"
+                      class="article__image"
+                      alt="Imagen del blog"
+                    />
+                  </div>
+
+                  <div class="article__logo">
+                    <i class="article__icon fa-solid fa-book"></i>
+                  </div>
+                </a>
+              </div>
+
+              <div class="article__bottom">
+                <time datetime="2024-08-30" class="article__date"
+                  >5-02-2024</time
+                >
+                <a href="https://www.linkedin.com/pulse/optimizando-la-experiencia-del-usuario-validar-en-web-e0ghe/?trackingId=kBPmypHvSFO%2FTwCF5hPbFg%3D%3" class="article__link">
+                  <h2 class="article__title">Experiencia del Usuario: Validar Formularios en la Web</h2>
+                </a>
+              </div>
+            </article>
+
+            <article class="articles__article">
+              <div class="articles__top">
+                <div class="article__category">Desarrollo</div>
+                <a href="#" class="article__link">
+                  <div class="article__mask">
+                    <img
+                      src="assets/img/articulo-3.jpg"
+                      class="article__image"
+                      alt="Imagen del blog"
+                    />
+                  </div>
+
+                  <div class="article__logo">
+                    <i class="article__icon fa-solid fa-book"></i>
+                  </div>
+                </a>
+              </div>
+
+              <div class="article__bottom">
+                <time datetime="2024-08-30" class="article__date"
+                  >30-10-2024</time
+                >
+                <a href="#" class="article__link">
+                  <h2 class="article__title">Como usar el local store</h2>
+                </a>
+              </div>
+            </article>
+
+            <article class="articles__article">
+              <div class="articles__top">
+                <div class="article__category">Desarrollo</div>
+                <a href="#" class="article__link">
+                  <div class="article__mask">
+                    <img
+                      src="assets/img/articulo-4.jpg"
+                      class="article__image"
+                      alt="Imagen del blog"
+                    />
+                  </div>
+
+                  <div class="article__logo">
+                    <i class="article__icon fa-solid fa-book"></i>
+                  </div>
+                </a>
+              </div>
+
+              <div class="article__bottom">
+                <time datetime="2024-08-30" class="article__date"
+                  >30-08-2024</time
+                >
+                <a href="#" class="article__link">
+                  <h2 class="article__title">Como maquetar una web</h2>
+                </a>
+              </div>
+            </article>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+    <title>Contactar</title>
+    <!--Estilos-->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppinns.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+     <link rel="stylesheet" href="assets/css/loader.css">
+ 
+     <!--Script JS-->
+   <script defer src="assets/js/map.js"></script>
+     <script src="assets/js/menu.js" defer></script>
+
+
+  </head>
+  <body>
+    <!--Layout principal-->
+    <div class="layout">
+      <!--Barra lateral(info usaurio)-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!--informacion general usuario-->
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                src="assets/img/default-user.jpg"
+                alt="imagen del usuario"
+                class="user-info__image"
+              />
+            </div>
+            <h2 class="user-info__name">
+              Antonio Heredia Morante <br />
+              Heran76
+            </h2>
+            <h4 class="user-info__job">Desarrollador web</h4>
+          </div>
+          <!--Menú de navegación-->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house menu__icon"></i>
+                  <span class="menu__overlay">Inicio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Curriculum</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portfolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portfolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">blog</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="contactar.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contactar</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!--links a redes sociales-->
+
+          <div class="user-info__links">
+            
+            <ul class="links__social">
+
+              <li class="social__option">
+                  <a href="https://github.com/Heran76" class="social__link">
+                      <i class="social__icon fa-brands fa-github"></i> 
+                  </a>
+              </li>
+
+              <li class="social__option">
+                  <a href="https://www.linkedin.com/in/antonioherediamorante/" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i></a>
+              </li>   
+
+          </ul>
+          </div>
+          <!--Botón del curriculum-->
+          <div class="user-info__buttons">
+            <a href="assets/img/CV_Currículum_Vitae_Antonio_heredia.pdf (1).pdf" class="user-info__btn">Descargar CV</a>
+          </div>
+          <!--Pie de página-->
+          <footer class="user-info__footer">
+            &copy;2024 Antonio Heredia Monrate
+          </footer>
+        </section>
+      </aside>
+     <!--Menu responsive-->
+     <div class="layout__menu-toggle">
+      <i class="menu-toggle__icon fa-solid fa-bars"></i>
+      <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+      </div>
+     
+      <!--Contenido principal-->
+      <main class="layout__content">
+        <section class="content__page content__contact">
+          <!--Este contenido cambia en cada pagina del sitio web-->
+          <header class="contact__header">
+            <h1 class="contact__titles">Contacto</h1>
+          </header>
+
+         <div class="contact__container">
+
+            <section class="contact__info">
+                  
+                <div class="contact__data">
+                    <i class="contact__icon fa-solid fa-location-dot"></i>
+                    <h2 class="contact__subtitle">Madrid</h2>
+                </div>
+
+                <div class="contact__data">
+                    <i class="contact__icon fa-solid fa-phone"></i>
+                    <h2 class="contact__subtitle">600956787</h2>
+                </div>
+
+                <div class="contact__data">
+                    <i class="contact__icon fa-solid fa-envelope"></i>
+                    <h2 class="contact__subtitle">Heran76@gmail.com</h2>
+                </div>
+
+                <div class="contact__data">
+                    <i class="contact__icon fa-solid fa-circle-check"></i>
+                    <h2 class="contact__subtitle">Desarrollador web</h2>
+                </div>
+
+            </section>
+
+            
+            <section class="contact__form-box">
+               
+                <div class="contact__map" id="load-iframe-map">
+                    <span class="loader"></span>
+                </div>
+
+                <header class="contact__form-header">
+                    <h3 class="form-header__title">Convirtiendo desafios en código <span class="title__color">innovador</span></h3>
+
+                </header>
+                
+                <form  class="contact__form">
+                     <div class="form__container">
+                        
+                        <section class="form__left">
+                             
+                            <div class="form__group">
+                                 <input type="text" class="form__input" name="name" id="" required placeholder="Nombre"/>
+                                 <label for="name" class="form__label">Nombre</label>
+                             </div>
+
+                             <div class="form__group">
+                                <input type="email"  class="form__input" name="email" id="" required placeholder="Email"/>
+                                <label for="email" class="form__label">Email</label>
+                            </div>
+
+                            <div class="form__group">
+                                <input type="text" class="form__input" name="subject" id="" required placeholder="Asunto"/>
+                                <label for="subject" class="form__label">Asunto</label>
+                            </div>
+
+                        </section>
+                        
+                        <section class="form__right">
+                            <div class="form__group form__group--textarea">
+                                <textarea class="form__input form__input--textarea" name="message" id="" required placeholder="Mensaje"></textarea>
+                                <label for="message" class="form__label">Mensaje</label>
+                            </div>
+                        </section>
+                        
+                        
+                     </div>
+                 <input type="submit" class="form__button" value="Enviar mensaje">               
+                </form>
+
+            </section>
+
+         </div>
+
+
+          
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
