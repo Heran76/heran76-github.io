@@ -275,6 +275,7 @@ h3{
     background-color: var(--color-secondary);
     white-space: nowrap;
     transition: all 300ms ease-in-out;
+    z-index : 100;
     
 }
 
