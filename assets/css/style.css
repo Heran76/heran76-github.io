@@ -681,7 +681,7 @@ h3{
 .extra__info{
     margin-top: -5px;
     flex-basis: 30%;
-    padding: 2,5rem;
+    padding: 1.5rem;
     border: 2px solid var(--color-border-reviews);
     border-radius: 1rem;
     text-align: center;
