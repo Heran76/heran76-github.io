@@ -2,7 +2,7 @@
 
 :root{
     --color-main: #ffffff;
-    --color-secondary: #203e6b;
+    --color-secondary: oklab(36.519% -0.01734 -0.08422);
     
     --color-background: #F2F7F9;
     --color-transparent: transparent;
